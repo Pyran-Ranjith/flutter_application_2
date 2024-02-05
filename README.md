@@ -17,17 +17,23 @@ samples, guidance on mobile development, and a full API reference.
 _______________________________________________________
 
 ## Creating new repo in github for this project
-### Check ih envirenment is correct
+### Check if the envirenment is correct
+````
 git config user.name
 git config user.email
-
+````
 ### Create cmd file
-    - git_new.cmd
-    - add folowing lines
+Create cmmand file 
+- Name: git_new.cmd
+- add folowing 
+````
 git init
 git add .
 git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/Pyran-Ranjith/flutter_application_2.git
 git push -u origin master
-    - now run the cmd file on cmd line
+````
+- now run the cmd file on cmd line.
+
+Your fist commit updatede ine Remote Repo.
