@@ -1,6 +1,6 @@
 @echo off
 :: Variable initialization.
-    set origin=https://github.com/Pyran-Ranjith/flutter-beginners-tutorial-ninja.git
+    set origin=https://github.com/Pyran-Ranjith/flutter_application_2.git
     set commit_msg="Change and renamed cmd files"
     set branch=51_35_navigation_drawer_1
 :: Execute initial pgm.
