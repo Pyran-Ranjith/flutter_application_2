@@ -1,14 +1,11 @@
 @echo off
 :: Variable initialization.
     set origin=https://github.com/Pyran-Ranjith/flutter-beginners-tutorial-ninja.git
-    set commit_msg=Testing git-push.cmd
+    set branch=master
 :: Execute initial pgm.
     git remote set-url origin %origin%
     git remote -v
 :: Process begin here.
-    git add . 
-    git commit -m %commit_msg%
-    git branch -M master
-    git push -u origin master
+    git pull origin %branch%
 :: End of Process.
     pause
