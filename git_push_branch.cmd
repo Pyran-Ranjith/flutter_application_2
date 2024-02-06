@@ -2,7 +2,7 @@
 :: Variable initialization.
     set origin=https://github.com/Pyran-Ranjith/flutter-beginners-tutorial-ninja.git
     set commit_msg="Change and renamed cmd files"
-    set branch=51_35_navigation_drawer
+    set branch=51_35_navigation_drawer_1
 :: Execute initial pgm.
     git remote set-url origin %origin%
     git remote -v
